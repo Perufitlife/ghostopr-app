@@ -8,9 +8,6 @@ const nextConfig: NextConfig = {
     imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
   },
   
-  // Output optimization for standalone deployment
-  output: 'standalone',
-  
   // Disable source maps in production for memory savings
   productionBrowserSourceMaps: false,
   
