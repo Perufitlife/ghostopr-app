@@ -47,8 +47,8 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-br from-purple-600 to-pink-600 flex items-center justify-center p-4">
       <div className="bg-white rounded-lg shadow-xl p-8 w-full max-w-md">
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-purple-800 mb-2">🎉 GhostOpr</h1>
-          <p className="text-gray-600">✨ WEBHOOK AUTO-DEPLOY SUCCESS! ✨</p>
+          <h1 className="text-4xl font-bold text-purple-800 mb-2">🚀 GhostOpr</h1>
+          <p className="text-gray-600">🎯 COMPLETE AUTO-DEPLOY WORKING! 🎯</p>
         </div>
 
         <form className="space-y-6">
@@ -109,7 +109,7 @@ export default function Home() {
         )}
 
         <div className="mt-6 text-center text-sm text-gray-500">
-          🔥 FULL CI/CD PIPELINE ACTIVE 🔥
+          🎉 GITHUB WEBHOOK + AUTO-DEPLOY SUCCESS 🎉
         </div>
       </div>
     </div>
