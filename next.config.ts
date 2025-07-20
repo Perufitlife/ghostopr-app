@@ -1,7 +1,21 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
-  /* config options here */
-};
+  // Image optimization
+  images: {
+    formats: ['image/webp', 'image/avif'],
+    deviceSizes: [640, 750, 828, 1080, 1200],
+    imageSizes: [16, 32, 48, 64, 96, 128, 256, 384],
+  },
+  
+  // Output optimization for standalone deployment
+  output: 'standalone',
+  
+  // Disable source maps in production for memory savings
+  productionBrowserSourceMaps: false,
+  
+  // Enable compression
+  compress: true,
+}
 
-export default nextConfig;
+export default nextConfig
